@@ -1,0 +1,15 @@
+.r-contents__userList-profile {
+  border: 1px solid;
+  border-radius: 70%;
+  width: 59px;
+  height: 59px;
+  margin: 4px;
+}
+
+.r-contents__userList-profile-activate {
+  border: 4px solid rgb(17, 199, 26);
+  border-radius: 70%;
+  width: 59px;
+  height: 59px;
+  margin: 4px;
+}

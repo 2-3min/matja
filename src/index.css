@@ -1,24 +1,22 @@
-div {
-  border-radius: 15px;
-  border: 1px solid;
-}
-
 .container {
-  background: beige;
+  background: #ededed;
   height: 100vh;
   
   display: flex;
-
+  align-items: center;
   column-gap: 19px;
 }
 
 .contents {
   margin: 15px;
+  border: 1px solid;
+  border-radius: 15px;
 }
+
 
 .l-contents {
   background: pink;
-  height: 600px;
+  height: 900px;
   flex-basis: 26%;
   
   display: flex;
@@ -26,17 +24,18 @@ div {
   align-items: center;
 }
 
+
 .l-contents__matZip {
+  border: 1px solid;
   height: 98%;
   margin: 3px;
   flex: 1;
-  
 }
 
 .r-contents {
+  border: 1px solid;
   width: 100px;
-  height: 600px;
-  background: purple;
+  height: 900px;
   flex-basis: 65%;
   
   display: flex;
@@ -46,15 +45,9 @@ div {
   row-gap: 15px;
 }
 
-.r-contents__userList {
-  width: 98%;
-  margin: 3px;
-  flex: 1;
-  
-  display: flex;
-}
 
 .r-contents__map {
+  border: 1px solid;
   width: 98%;
   margin: 3px;
   flex: 9;

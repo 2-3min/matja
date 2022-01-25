@@ -1,13 +1,15 @@
 import './index.css';
 
-function App() {
+import UserList from './components/UserList';
+
+const App = () => {
   return (
     <div className="container">
     <div className="contents l-contents">
       <div className="l-contents__matZip">matzipList</div>
     </div>
     <div className="contents r-contents">
-      <div className="r-contents__userList">userList</div>
+      <UserList></UserList>
       <div className="r-contents__map">map</div>
     </div>
   </div>
